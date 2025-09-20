@@ -1,3 +1,5 @@
 # Remove Vscode folder
 **/.vscode/
+# ignore mp4 video
+**/Silent Noise _ 2 minute Short Film.mp4
 
