@@ -3,3 +3,7 @@
 # ignore mp4 video
 **/Silent Noise _ 2 minute Short Film.mp4
 
+#ignore image files
+photo1.jpg
+photo2.jpg
+

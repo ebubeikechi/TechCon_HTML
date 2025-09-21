@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+
+      <p>
+        <a href="mailto:email@example.com">Email address</a>
+        <a href="socialmedia@facebook.com" target="_blank">Facebook</a>
+        <a href="socialmedia@twitter.com" target="_blank">Twitter</a>
+      </p>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31803.419524521447!2d6.9746049!3d4.8678296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1758469370613!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+      <form action="/submitform" method="post">
+        <label for="fullname">Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address" required>
+
+        <p>
+          <label for="Message">Message:</label>
+          <textarea name="Message" id="Message">Enter messeage here</textarea>
+        </p>
+
+        <p>
+          <button type="submit">Send Message</button>
+        </p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; TechCon 2025. All rights reserved.</p>
+  </footer>
+</body>
+</html>
